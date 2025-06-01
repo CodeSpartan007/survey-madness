@@ -4,8 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "SurveyMadness",
   description: "Created by CodeSpartan",
-  generator: "v0.dev",
-};
+  };
 
 export default function RootLayout({
   children,
