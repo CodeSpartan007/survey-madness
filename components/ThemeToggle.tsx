@@ -30,7 +30,7 @@ export default function ThemeToggle() {
         onClick={toggleTheme}
         className="px-4 py-2 border rounded-md bg-secondary text-secondary-foreground hover:bg-muted transition"
       >
-        {darkMode ? "🌙 Dark Mode" : "☀️ Light Mode"}
+        {darkMode ? "🌙 Dark" : "☀️ Light"}
       </button>
     </div>
   );
